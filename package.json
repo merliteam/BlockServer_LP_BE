@@ -3,6 +3,7 @@
   "version": "0.1.1",
   "private": true,
   "description": "A Strapi application",
+  "main": "dist/server.js",
   "scripts": {
     "build": "strapi build",
     "console": "strapi console",
@@ -11,6 +12,7 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "strapi": "strapi",
+    "vercel-build": "strapi build",
     "upgrade": "npx @strapi/upgrade latest",
     "upgrade:dry": "npx @strapi/upgrade latest --dry"
   },
